@@ -1,7 +1,7 @@
-function Options({ questions }) {
+function Options({ question }) {
   return (
     <div className="options">
-      {questions.options.map((option) => (
+      {question.options.map((option) => (
         <button className="btn btn-option">{option}</button>
       ))}
     </div>
